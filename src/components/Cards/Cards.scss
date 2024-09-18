@@ -1,0 +1,24 @@
+.cardsLogements {
+    display: flex;
+    width: 25%;
+    height: 340px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #FF6060;
+    
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 12em;
+        border-radius: 10px;
+    }
+
+    h2 {
+        display: flex;
+        font-size: 18px;
+        padding-left: 10px;
+        align-items: center;
+    }
+}

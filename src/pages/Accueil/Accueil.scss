@@ -1,0 +1,19 @@
+.bannerContainer {
+    padding: 30px;
+    margin: 0px 70px;
+}
+
+.cardContainer {
+    background-color: #F6F6F6;
+    margin: 20px 110px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.cardsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+}
