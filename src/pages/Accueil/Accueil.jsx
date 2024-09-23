@@ -1,12 +1,13 @@
-import Banner from "../../components/Structure/Banner"
-import logementsList from "../../datas/logementsList.json"
-import Card from "../../components/Cards/Card"
+import Banner from "../../components/Structure/Banner";
+import ImageAccueil from "../../assets/ImageAccueil.png";
+import logementsList from "../../datas/logementsList.json";
+import Card from "../../components/Cards/Card";
 
 const Accueil = () => {
     return (
         <>
         <div className="bannerContainer">
-            <Banner />
+            <Banner bgImage={ImageAccueil} alt="Falaise et Océan brumeux">Chez vous, partout et ailleurs</Banner>
         </div>
         <div className="cardContainer">
             <div className="cardsList">
@@ -16,7 +17,7 @@ const Accueil = () => {
             </div>
         </div>
         </>
-    )
-}
+    );
+};
 
-export default Accueil
+export default Accueil;
