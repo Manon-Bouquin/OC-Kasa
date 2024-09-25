@@ -1,4 +1,4 @@
-const Banner = (props) => {
+function Banner(props) {
     return (
         <div className="banner text-white">
             <img src={props.bgImage} alt="Bannière" />
