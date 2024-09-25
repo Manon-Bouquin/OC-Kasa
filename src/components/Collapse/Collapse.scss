@@ -1,0 +1,25 @@
+.collapse {
+    margin: 30px 220px;
+    overflow-y: auto;
+
+    .collapse-title {
+        background-color: #FF6060;
+        padding: 7px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .collapse-content {
+        color: black;
+        font-size: 1.5rem;
+        margin: 20px 20px 50px 20px;
+    }
+
+   .button-chevron {
+    cursor: pointer;
+   }
+}

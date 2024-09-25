@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-function Error () {
+function Error() {
     return (
         <div className="error-container">
             <h1 className="error">404</h1>
@@ -8,6 +8,6 @@ function Error () {
             <Link to="/">Retourner sur la page d'acceuil</Link>
         </div>
     );
-}
+};
 
 export default Error ;
