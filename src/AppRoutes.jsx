@@ -4,7 +4,6 @@ import Accueil from "./pages/Accueil/Accueil";
 import Apropos from "./pages/Apropos/Apropos";
 import Error from "./components/Error/Erreur";
 
-
 function AppRoutes() {
     return (
         <BrowserRouter>
@@ -17,6 +16,6 @@ function AppRoutes() {
             </Routes>
         </BrowserRouter>
     );
-}
+};
 
 export default AppRoutes;
