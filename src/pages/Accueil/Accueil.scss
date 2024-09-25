@@ -1,13 +1,16 @@
 .bannerContainer {
-    padding: 30px;
-    margin: 0px 70px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .cardContainer {
     background-color: #F6F6F6;
+    padding-top: 30px;
     margin: 20px 110px;
+    padding-bottom: 180px;
     border-radius: 20px;
     text-decoration: none;
+    flex: 1;
 }
 
 .cardsList {

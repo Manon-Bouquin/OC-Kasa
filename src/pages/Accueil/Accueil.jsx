@@ -3,7 +3,7 @@ import ImageAccueil from "../../assets/ImageAccueil.png";
 import logementsList from "../../datas/logementsList.json";
 import Card from "../../components/Cards/Card";
 
-const Accueil = () => {
+function Accueil() {
     return (
         <>
         <div className="bannerContainer">
