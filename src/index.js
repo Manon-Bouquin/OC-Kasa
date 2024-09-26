@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./SASS/index.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <AppRoutes />
+    <AppRoutes />
 );
 
 // If you want to start measuring performance in your app, pass a function
