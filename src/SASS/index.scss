@@ -1,9 +1,14 @@
 @import "./base/base.scss";
+@import "./base/variables.scss";
+
 @import "../components/Structure/Header.scss";
 @import "../components/Structure/Footer.scss";
 @import "../components/Structure/Banner.scss";
+
 @import "..//pages/Accueil/Accueil.scss";
 @import "../components/Cards/Cards.scss";
 @import "../components/Error/Erreur.scss";
-@import "../components/Collapse/Collapse.scss";
 @import "../pages/Apropos/Apropos.scss";
+@import "../pages/Logement/Logement.scss";
+@import "../components/Slideshow/Slideshow.scss";
+@import "../components/Collapse/Collapse.scss";

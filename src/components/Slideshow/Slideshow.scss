@@ -1,0 +1,15 @@
+.slidesWrapper {
+    img {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+    }
+}
+
+.SlideShow {
+    max-height: 400px;
+    display: flex;
+}

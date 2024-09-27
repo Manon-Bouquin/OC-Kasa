@@ -14,15 +14,14 @@ function Collapse(props) {
     <div className={animation}> 
       <div className="collapse-title text-white">
         {props.titre}
-        <div className="button-chevron" onClick={() => setIsCollapsed(!isCollapsed)}>
+        <div className={`button-chevron ${!isCollapsed ? "rotated" : ""}`} onClick={() => setIsCollapsed(!isCollapsed)}>
           <div className="fa-solid fa-chevron-up"></div>
         </div>
       </div>
-      {!isCollapsed && (
-        <div className="collapse-content">
+      
+        <div className={`collapse-content ${!isCollapsed ? "visible" : "hidden"}`}>
           {props.children}
         </div>
-      )}
     </div>
   );
 };
