@@ -37,10 +37,10 @@ function Logements() {
       </div>
 
       <div className="collapse">
-        <Collapse titre="Description" cssClasses="collapse-container">
+        <Collapse titre="Description" cssClasses="collapse-container description">
           <p>{logement.description}</p>
         </Collapse>
-        <Collapse titre="Equipements" cssClasses="collapse-container">
+        <Collapse titre="Equipements" cssClasses="collapse-container equipement">
           <ul>
             {logement.equipments.map((equipment, index) => {
               return <li key={index}> {equipment}</li>;

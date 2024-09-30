@@ -6,80 +6,96 @@
     .slideshow, .logement-info, .collapse {
         flex: 1;
     }
-    
 
-    .logement-title {
-        margin-bottom: 8px;
-        font-size: 3em;
-        font-weight: lighter;
-    }
-    .logement-place {
-        margin: 0;
-        font-size: 1.3em;
-    }
-
-    .logement-tag {
-        margin-top: 30px;
-        .tags {
-            border-radius: 15px;
-            background-color: #FF6060;
-            padding: 8px 30px;
-            margin-right: 10px;
-        }
-    }
-
-    .host-info {
+    .logement-info {
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: center;
-        .host-name {
+        
+        .logement-title {
+            margin-bottom: 8px;
+            font-size: 3em;
+            font-weight: 450;
+        }
+    
+        .logement-place {
+            margin: 0;
+            font-size: 1.3em;
+            font-weight: 450;
+        }
+    
+        .logement-tag {
+            margin-top: 30px;
+    
+            .tags {
+                border-radius: 15px;
+                background-color: #FF6060;
+                padding: 8px 30px;
+                margin-right: 10px;
+            }
+        }
+    
+        .host-info {
             display: flex;
-            flex-direction: column;
-            text-align: right;
-            margin-right: 10px;
-            font-size: 1.3em;
+            justify-content: flex-end;
+            align-items: center;
+    
+            .host-name {
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+                margin-right: 10px;
+                font-size: 1.3em;
+            }
+    
+            .host-portrait {
+                border-radius: 100px;
+                margin: 10px 10px 30px 0px;        
+                width: 80px;                  
+                height: 80px;
+            }
         }
-        .host-portrait {
-            border-radius: 100px;
-            margin: 10px 10px 30px 0px;        
-            width: 80px;                  
-            height: 80px;
+    
+        .host-rating {
+            display: flex;
+            justify-content: flex-end;
+    
+            .fa-star {
+                font-size: 1.3em;
+                padding-right: 15px;
+            } 
         }
     }
-
-    .host-rating {
-        display: flex;
-        justify-content: flex-end;
-        .fa-star {
-            font-size: 1.3em;
-            padding-right: 15px;
-        } 
-    }
-
+    
     .fa-star-inactive {
         color: lightgray;
     }
 
     .collapse {
         display: flex;
-        flex-direction: row;
         margin: 15px 0 50px 0;
-    }
 
-    .collapse-container {
-        width: 45%;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        min-height: 170px;
-    }
+        .description {
+            margin-right: 45px;
+        }
+    
+        .equipement {
+            margin-left: 45px;
+        }
+    
+        .collapse-container {
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+        }
 
-    p, ul {
-        margin: 0;
-        padding: 0;
-    }
-
-    ul {
-        list-style-type: none;
+        p, ul {
+            margin: 0;
+            padding: 0;
+        }
+    
+        ul {
+            list-style-type: none;
+        }
     }
 }
