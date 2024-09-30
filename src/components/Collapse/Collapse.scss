@@ -1,13 +1,13 @@
 .collapse{
-    margin: 30px 220px;
-    padding: 0;
+    margin-right: 220px;
+    margin-left: 220px;
 
     .collapse-title {
         background-color: #FF6060;
         padding: 7px;
         border-radius: 5px;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.7rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -15,15 +15,16 @@
 
     .collapse-content {
         color: black;
-        font-size: 1.5rem;
+        font-size: 1.1em;
         overflow: hidden;
-        padding-top: 10px;
-
+        margin-bottom: 15px;
+        padding: 15px;
+        background-color: #F6F6F6;
+        border-radius: 0 0 15px 15px;
         &.visible {
             animation: fadeIn 0.5s forwards;
             opacity: 1;
         }
-
         &.hidden {
             animation: fadeOut  0.5s forwards;
             opacity: 0;

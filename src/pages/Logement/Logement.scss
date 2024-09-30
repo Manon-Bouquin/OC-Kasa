@@ -1,34 +1,44 @@
 .logement {
-   padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 30px;
 
     .slideshow, .logement-info, .collapse {
         flex: 1;
     }
     
+
     .logement-title {
+        margin-bottom: 8px;
         font-size: 3em;
         font-weight: lighter;
     }
-
     .logement-place {
+        margin: 0;
         font-size: 1.3em;
     }
 
     .logement-tag {
-        margin: 25px;
-
+        margin-top: 30px;
         .tags {
             border-radius: 15px;
             background-color: #FF6060;
-            padding: 10px 20px;
-            margin: 10px;
+            padding: 8px 30px;
+            margin-right: 10px;
         }
     }
 
-    .host-picture {
+    .host-info {
         display: flex;
         justify-content: flex-end;
-       
+        align-items: center;
+        .host-name {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            margin-right: 10px;
+            font-size: 1.3em;
+        }
         .host-portrait {
             border-radius: 100px;
             margin: 10px 10px 30px 0px;        
@@ -53,10 +63,7 @@
     .collapse {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        margin-right: 50px;
-        margin-left: 50px;
-        margin-bottom: 50px;
+        margin: 15px 0 50px 0;
     }
 
     .collapse-container {
@@ -67,14 +74,12 @@
         min-height: 170px;
     }
 
-    .collapse-content {
-        margin-bottom: 50px;
-        padding: 0;
-        font-size: 1.1em;
-    }
-
     p, ul {
         margin: 0;
         padding: 0;
+    }
+
+    ul {
+        list-style-type: none;
     }
 }
