@@ -22,14 +22,14 @@ function Slideshow (props) {
   return (
     //les boutons ne s'affichent que si l'index du tableau slides est supérieur à 1 (+ d'une image)
     //la pagination affiche currentIndex + 1 car la 1ère img = index 0 / le taille du tableau slides
-    <div className="SlideShow">
+    <div className="SlideShow text-white">
       {props.slides.length > 1 && (
         <div className="slideClick fa-solid fa-chevron-left" onClick={prevIndex} role="button"></div>
       )}
       <div className="slidesWrapper">
         <img key={currentIndex} src={props.slides[currentIndex]} alt="photos" />
         {props.slides.length > 1 && (
-          <div className="text-none">{currentIndex + 1}/{props.slides.length}</div>
+          <div className="slideNumber">{currentIndex + 1}/{props.slides.length}</div>
         )}
       </div>
       {props.slides.length > 1 && (
