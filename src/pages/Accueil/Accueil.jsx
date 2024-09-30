@@ -5,7 +5,7 @@ import Card from "../../components/Cards/Card";
 
 function Accueil() {
     return (
-        <>
+        <div className="accueilContainer">
         <div className="bannerContainer">
             <Banner bgImage={ImageAccueil} alt="Falaise et Océan brumeux">Chez vous, partout et ailleurs</Banner>
         </div>
@@ -16,7 +16,7 @@ function Accueil() {
                 }
             </div>
         </div>
-        </>
+        </div>
     );
 };
 
