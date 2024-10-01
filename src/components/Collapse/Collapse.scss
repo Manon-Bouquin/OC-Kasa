@@ -2,6 +2,9 @@
     margin-right: 220px;
     margin-left: 220px;
     padding: 25px;
+    @include mediamobile () {
+        margin-left: 10px;
+    }
 
     .collapse-title {
         background-color: $main-color;
@@ -12,6 +15,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @include mediamobile () {
+            width: 128%;
+            height: 50px;
+        }
     }
 
     .collapse-content {
@@ -30,6 +37,10 @@
         &.hidden {
             animation: fadeOut 0.5s forwards;
             display: block;
+        }
+
+        @include mediamobile () {
+            width: 125%;
         }
     }
 

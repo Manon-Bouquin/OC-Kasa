@@ -1,10 +1,15 @@
 .accueilContainer {
     margin-right: 80px;
     margin-left: 80px;
+    @include mediamobile () {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
 
     .bannerContainer {
         margin-bottom: 40px;
     }
+    
     .cardContainer {
         background-color: $tertiary-color;
         margin-bottom: 50px;

@@ -5,6 +5,9 @@
     justify-content: space-between;
     padding: 15px;
     margin: 10px 50px;
+    @include mediamobile () {
+        margin: 0;
+    }
 
     .logo-header {
         width: 80%;
@@ -22,6 +25,9 @@
         color: black;
         margin-right: 20px;
         font-weight: 500;
+        @include mediamobile () {
+            font-size: 1.5em;
+        }
     }
 
     &__nav a.active {
