@@ -1,10 +1,11 @@
 function Banner(props) {
+    const classes = "banner " + props.css;
     return (
-        <div className="banner text-white">
+        <div className={classes}>
             <img src={props.bgImage} alt="Bannière" />
             {props.children !== undefined && props.children !== "" && (
                 <div className="overlay">
-                    <h1>{props.children}</h1>
+                    <h1 className="text-white">{props.children}</h1>
                 </div>
             )}
         </div>
