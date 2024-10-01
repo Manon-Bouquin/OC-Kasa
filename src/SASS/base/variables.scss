@@ -9,3 +9,13 @@
 .text-none {
     color: transparent;
 }
+
+$main-color : #FF6060;
+$primary-color : #fff;
+$second-color : black;
+$tertiary-color : #F6F6F6;
+
+$breakpoints :(
+    mobile : 1023.99px,
+    desktop : 1024px,
+)
