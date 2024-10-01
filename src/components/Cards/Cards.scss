@@ -6,12 +6,19 @@
     border-radius: 12px;
     text-decoration: none;
     background-color: $main-color;
+    @include mediamobile () {
+        width: 80%;
+        height: 450px;
+    }
     
     img {
         width: 100%;
         object-fit: cover;
         height: 250px;
         border-radius: 10px;
+        @include mediamobile () {
+            height: 370px;
+        }
     }
 
     h2 {
@@ -20,5 +27,8 @@
         font-weight: 450;
         padding-top: 8px;
         align-items: center;
+        @include mediamobile () {
+            font-size: 1.5em;
+        }
     }
 }

@@ -7,7 +7,8 @@ function Accueil() {
     return (
         <div className="accueilContainer">
         <div className="bannerContainer">
-            <Banner bgImage={ImageAccueil} alt="Falaise et Océan brumeux">Chez vous, partout et ailleurs</Banner>
+            <Banner css="hiddenMobile" bgImage={ImageAccueil} alt="Falaise et Océan brumeux">Chez vous, partout et ailleurs</Banner>
+            <Banner css="hiddenDesktop" bgImage={ImageAccueil} alt="Falaise et Océan brumeux">Chez vous,<br />partout et ailleurs</Banner>
         </div>
         <div className="cardContainer">
             <div className="cardsList">
