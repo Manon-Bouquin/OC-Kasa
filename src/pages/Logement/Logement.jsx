@@ -50,7 +50,7 @@ function Logements() {
       </div>
 
     </div>
-    );
-  };
+  );
+};
   
 export default Logements;

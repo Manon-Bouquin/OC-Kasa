@@ -5,9 +5,9 @@
     width: 100%;
     color: $primary-color;
     @include mediamobile () {
-    padding: 5em 0 80em 0;
-    .logoKasa {
-        width: 25%;
-    }
+        padding: 5em 0 80em 0;
+        .logoKasa {
+            width: 25%;
+        }
     }
 }

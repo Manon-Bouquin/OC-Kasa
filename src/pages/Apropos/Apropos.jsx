@@ -3,7 +3,6 @@ import ImageAPropos from "../../assets/ImageApropos.png";
 import Collapse from "../../components/Collapse/Collapse";
 import aproposJson from "../../datas/apropos.json";
 
-
 function Apropos()  {
     return (
         <div className="a-propos">
